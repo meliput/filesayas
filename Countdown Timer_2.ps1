@@ -1,4 +1,4 @@
-﻿$delay = 10
+﻿$delay = 19860
 
 $Counter_Form = New-Object System.Windows.Forms.Form
 $Counter_Form.Text = "Countdown Timer!"
