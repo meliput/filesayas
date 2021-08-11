@@ -1,0 +1,25 @@
+
+You do not have sufficient permissions to perform this command.  Make sure that you are running as the local administrator or have opened the command prompt using the 'Run as administrator' option.
+gc : Cannot find path 'C:\secpol.cfg' because it does not exist.
+At C:\Users\latif\Desktop\Files\RDP 2\DisablePasswordComplexity.ps1:2 char:2
++ (gc C:\secpol.cfg).replace("PasswordComplexity = 1", "PasswordComplex ...
++  ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\secpol.cfg:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+You cannot call a method on a null-valued expression.
+At C:\Users\latif\Desktop\Files\RDP 2\DisablePasswordComplexity.ps1:2 char:1
++ (gc C:\secpol.cfg).replace("PasswordComplexity = 1", "PasswordComplex ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+ 
+
+You do not have sufficient permissions to perform this command.  Make sure that you are running as the local administrator or have opened the command prompt using the 'Run as administrator' option.
+rm : Cannot find path 'C:\secpol.cfg' because it does not exist.
+At C:\Users\latif\Desktop\Files\RDP 2\DisablePasswordComplexity.ps1:4 char:1
++ rm -force c:\secpol.cfg -confirm:$false
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\secpol.cfg:String) [Remove-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+ 
